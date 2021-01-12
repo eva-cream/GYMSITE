@@ -1,0 +1,138 @@
+.price{
+    background-color: rgba(28, 36, 65, 0.95);
+    position: relative;
+}
+.price_log{
+    font-family:'Nova';
+    color:#fff;
+}
+.price_log h2{
+    font-size:48px;
+    font-weight: 700;
+    margin:0;
+    padding:10% 0 0;
+    text-align:center;
+}
+.price_log h4{
+    font-size:24px;
+    font-weight:300;
+    margin:0;
+    text-align:center;
+}
+.price1{
+    background:#00a8ff;
+    margin: 15% 0 0;
+}
+.price1 h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+    padding: 6% 17% 0;
+}
+.price1 p{
+    font-size:30px;
+    font-weight: 300;
+    margin:0;
+    padding: 2% 16% 0;
+}
+.price1 p span{
+    font-size:18px;
+}
+.submn{
+    background:#00a8ff; 
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 8% 16%;
+}
+.submn:hover{
+    color:#00a8ff;
+    background-color:#fff;
+}
+.price2{
+    background:#00a8ff;
+    margin: 15px 0 0;
+}
+.price2 ul{
+    padding: 7% 18%;
+    margin:0;
+}
+.price2 li{
+    list-style-type:square;
+    font-size:18px;
+    padding: 3px;
+}
+.price3{
+    background:#bbb;
+    margin: 15px 0 25%;
+    text-align:center;
+}
+.price3 h3{
+    padding: 6% 0 0;
+    margin: 0;
+    font-weight: 700;
+}
+.price3 p{
+    font-size:30px;
+    font-weight: 300;
+    margin:0;
+    padding: 2% 0;
+}
+.price3 p span{
+    font-size:18px;
+}
+.subm{
+    background:#bbb;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 8% 0;
+}
+.subm:hover{
+    color:#bbb;
+    background-color:#fff;
+}
+
+@media (min-width: 767px){
+    .price{
+        background:url(../image/run.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    .price2 ul {
+        padding: 13% 18% 22%;
+    }
+    .price1{
+        margin: 45% -30px 0 30px;
+    }
+    .price1 h3{
+        padding: 15% 17% 0;
+    }
+    .submn{
+        margin:16%;
+    }
+    .price2{
+        margin: 45% -15px 0;
+    }
+    .price3{
+        margin: 0 -15px 41% 0;
+    }
+    .price3 h3{
+        padding: 15% 0 0;
+    }
+    .subm{
+        margin:16%;
+    }
+}
+@media (min-width: 992px){
+    .price2 ul{
+    padding: 13% 18% 25%;
+    }
+}
+@media (min-width: 1200px){
+    .price2 ul {
+        padding: 13% 18% 23%;
+    }
+    .price3 {
+        margin: -1% -15px 41% 0;
+    }
+}

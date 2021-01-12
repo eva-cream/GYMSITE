@@ -1,0 +1,43 @@
+.twit{
+    background:#00a8ff;
+    text-align:center;
+    position:relative;
+}
+.twit:before {
+    content: "";
+    position: absolute;
+    top: 7%;
+    left: 49%;
+    width: 26px;
+    height: 21px;
+    background-image: url(../image/);
+    background-position: -102px -77px;
+}
+.twit p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 16% 7%;
+}
+.twit p span{
+    color:#93daff;
+}
+.twit .owl-carousel button.owl-dot{
+    width: 8px;
+    height: 8px;
+    border: 2px solid #fff;
+    padding: 2px;
+    margin: 5px;
+    transform: translate(0,-60px);
+}
+@media (min-width: 1200px){
+    .twit p{
+        padding: 16% 27%;
+    }
+    .twit .owl-carousel button.owl-dot{
+        transform: translate(0,-198px);
+    }
+    .twit:before{
+        top: 25%;
+    }
+}

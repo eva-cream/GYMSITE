@@ -1,0 +1,137 @@
+.footer{
+    background-color:rgb(28,36,65);
+    font-family:'Nova';
+    color:#fff;
+}
+.reserved{
+    margin: 13% 0 0;
+}
+.reserved h2{
+    font-size:30px;
+    font-weight:700;
+    margin:0;
+}
+.reserved p{
+    font-size:18px;
+    color:#bbb;
+    margin:0;
+}
+.submt{
+    color:#fff;
+    background-color:#00a8ff;
+    margin: 7% 0 0;
+}
+.submt:hover{
+    color:#00a8ff;
+    background-color:#fff;
+}
+.hours{
+    margin: 13% 0 10%;
+}
+.hours h2:before{
+    content: "";
+    position: absolute;
+    right: 25%;
+    bottom: 23%;
+    background-color: #4caf50;
+    border: 6px solid rgba(76,175,80,0.15);
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+}
+.hours h2{
+    font-size:30px;
+    font-weight:700;
+    margin: 0 3%;
+    position:relative;
+}
+.hours h3{
+    color:#bbb;
+    font-size:18px;
+    margin:0;
+}
+.hours h4{
+    color:#fff;
+    font-size:24px;
+}
+.social{
+    margin: 0 0 6%;
+}
+.weekd{
+    margin: 8% 0 0;
+    padding:0;
+}
+.weekend{
+    margin: 8% 0 0;
+    padding:0;
+}
+.inf{
+    position:relative;
+    color:#545662;
+    font-size:16px;
+    margin: 0 15px 7%;
+}
+.inf span{
+    color:#00a8ff;
+}
+.facebook{
+    background-image: url(../image/sprite.png);
+    background-position: -5px 31px;
+    width: 14px;
+    position: relative;
+    height: 25px;
+}
+.twiter{
+    background-image: url(../image/sprite.png);
+    background-position: -101px 82px;
+    width: 26px;
+    position: relative;
+    height: 21px;
+    margin: 2px 21px 0;
+}
+.linkedin{
+    background-image: url(../image/sprite.png);
+    background-position: -63px 82px;
+    width: 27px;
+    position: relative;
+    height: 25px;
+    margin: 0 13px;
+}
+@media (min-width: 767px){
+   .footer{
+       background-image:url(../image/leg.png);
+       position:relative;
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   .footer:before{
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height:100%;
+        background-color:rgba(28,36,65,0.95);
+   }
+    .submt{
+        margin: 11% 0 0;
+    }
+    .weekend{
+        margin: 9% 0 0;
+    }
+}
+@media (min-width: 992px){
+    .hours{
+        margin: 13% 0 16%;
+    }
+    .social{
+        margin: 0;
+        padding:0;
+    }
+    .hours h2:before {
+        right: 47%;
+}
+@media (min-width: 1200px){
+    .weekd{
+        margin: 9% 3% 0;
+    }
+}

@@ -1,0 +1,175 @@
+.team{
+    transform: skew(-5deg) rotate(-5deg)translate(0, -135px);
+    background:#f7f7f7;
+    position:relative;
+}
+.team:before{
+    content:"";
+    position:absolute;
+    bottom:-24%;
+    left:0;
+    height:600px;
+    width:100%;
+    background:#f7f7f7;
+    transform: skew(5deg) rotate(5deg);
+}
+.team_wrap{
+    transform: skew(5deg) rotate(5deg);
+}
+.status{
+    text-align:center;
+    font-family:'Nova';
+    padding: 22% 0 12%
+}
+.status h2{
+    color:#333;
+    font-weight:700;
+    line-height:48.15px;
+    font-size:48px;
+    margin:0;
+}
+.first-trainer{
+    background-color:#fff;
+    font-family:'Nova';
+    margin: 0 6px 0 ;
+    text-align: center;
+}
+.second-trainer{
+    background-color:#fff;
+    font-family:'Nova';
+    margin:0 6px 0;
+    text-align: center;
+}
+.third-trainer{
+    background-color:#fff;
+    margin: 0 6px 0;
+    font-family:'Nova';
+    text-align: center;
+}
+.status p{
+    margin:0;
+    font-size:24px;
+    color:#bbb;
+    font-weight:300;
+    line-height:47.92px;
+}
+.fitnes_img{
+    background:url(../image/fitne.png);
+    width:100%;
+    height:240px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.fitnes_img p,.fitnes_img2 p,.fitnes_img3 p{
+    display:none;
+}
+.first-trainer:hover .fitnes_img p,.second-trainer:hover .fitnes_img2 p,.third-trainer:hover .fitnes_img3 p{
+    display:block;
+    font-family:'Nova';
+    color:#fff;
+    position:relative;
+    font-size:30px;
+    font-weight:700;
+    padding:55px 0 0;
+}
+.first-trainer:hover .fitnes_img p:nth-child(2),.second-trainer:hover .fitnes_img2 p:nth-child(2),.third-trainer:hover .fitnes_img3 p:nth-child(2){
+    opacity:0.6;
+    font-size:18px;
+    font-weight:400;
+    padding:0;
+}
+.fitnes_img2{
+    background:url(../image/train.png);
+    width:100%;
+    height:240px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.fitnes_img3{
+    background:url(../image/fat.png);
+    width:100%;
+    height:240px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.fitnes_img:before,.fitnes_img2:before,.fitnes_img3:before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:1%;
+    width:98%;
+    height:240px;
+    background-image:linear-gradient(to top,rgba(0,0,0,.6)0%,rgba(48,59,100,0)100%);
+}
+.first-trainer:hover :before,.second-trainer:hover :before,.third-trainer:hover :before{
+    background-image:none;
+    background-color:rgba(0,168,255,0.9);
+}
+.first-trainer:hover input,.second-trainer:hover input,.third-trainer:hover input{
+    background-color: #00a8ff;;
+    color:#fff;
+}
+.first-trainer h2,.second-trainer h2,.third-trainer h2{
+    color:#333;
+    font-size:24px;
+    font-weight:700;
+    text-align:center;
+    margin: 0;
+}
+.first-trainer p,.second-trainer p,.third-trainer p{
+    margin:0;
+    font-size:18px;
+    color:#bbb;
+    text-align:center;
+}
+input{
+    border: 1px solid #00a8ff;
+    color: #00a8ff;
+    font-size: 18px;
+    padding: 13px 29px;
+    background-color: #fff;
+    margin: 15% 0;
+}
+input:focus{
+    outline: none;
+}
+.instructor{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: url(../image/sprite2.png);
+    background-position: 249px 241px;
+    border-radius: 50%;
+    margin: -17% auto 16%;
+}
+.trainer{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: url(../image/sprite2.png);
+    background-position: 371px 241px;
+    border-radius: 50%;
+    margin: -17% auto 16%;
+}
+.trainer2{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: url(../image/sprite2.png);
+    background-position: 127px 241px;
+    border-radius: 50%;
+    margin: -17% auto 16%;
+}
+.team .owl-carousel div.owl-dots{
+    text-align:center;
+}
+.team .owl-carousel button.owl-dot {
+    border: 2px #bbb solid;
+    width: 25px;
+    height: 5px;
+    margin: 2px;
+    border-radius:4px;
+}
+.team .owl-carousel button.owl-dot.active{
+    background:#bbb;
+}
