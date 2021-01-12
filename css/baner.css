@@ -78,7 +78,7 @@ body{
 }
 .baner{
     position:relative;
-    background-image:url(../image/_IMG.png);
+    background-image:url(../image/IMG.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
